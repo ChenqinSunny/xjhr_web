@@ -8,8 +8,9 @@ Vue.use(VueRouter);
 
 const routes = [{
 		path: '/',
-		component: r => require.ensure([], () => r(require('../components/MainPage.vue')), 'MainPage')
+		component: r => require.ensure([], () => r(require('../components/MainPage.vue')), 'HelloWorld')
 	}
+	
 ]
 
 

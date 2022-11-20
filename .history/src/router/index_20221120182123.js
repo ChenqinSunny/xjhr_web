@@ -10,6 +10,7 @@ const routes = [{
 		path: '/',
 		component: r => require.ensure([], () => r(require('../components/MainPage.vue')), 'MainPage')
 	}
+	
 ]
 
 

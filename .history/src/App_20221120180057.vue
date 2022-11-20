@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
   components: {
-    MainPage
+    HelloWorld
   }
 }
 </script>
